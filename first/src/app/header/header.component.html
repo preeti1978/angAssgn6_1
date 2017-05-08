@@ -1,0 +1,14 @@
+<p>
+  header works!
+</p>
+<h2 [class]="h2Class">
+h2 tag
+</h2>
+
+<input type="text" name="text" #myName>
+<button (click)="listenClick(myName.value)">
+	Click me
+</button>
+<h3 [ngStyle]="{'color':greenColor}">
+This is green
+</h3>
